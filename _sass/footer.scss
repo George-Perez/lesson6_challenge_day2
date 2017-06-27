@@ -29,6 +29,7 @@ i {
     display: flex;
     flex-flow: column nowrap;
     text-align: center;
+    width:30%;
 }
 
 .about-us-text {
@@ -53,17 +54,24 @@ button {
     border-top: 2px solid #dedede;
     background-color: #f7f7f7;
     display: flex;
-    // flex-flow: column nowrap;
+    align-self: center;
+    align-items: flex-start;
+    justify-content: space-between;
     text-align: center;
     border-bottom: 70px solid #0187c6;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 30px;
 }
+
 
 .social-icons-810px {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-self: center;
-    margin-right: 30px;
-    margin-bottom: 80px;
+    padding-left: 40px;
+    // margin-right: 30px;
+    // margin-bottom: 80px;
     font-size: 20px;
     height: 5px;
     width: auto;
@@ -74,6 +82,20 @@ input {
     padding: 10px 20px;
 }
 
+.newsletter-container-810px{
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.social-container-810px {
+     display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+}
 // i {
 //     padding: 15px;
 // }

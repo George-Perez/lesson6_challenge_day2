@@ -104,13 +104,19 @@
         display: none;
     }
     .input {
-    padding: 10px 75px;
+        padding: 10px 75px;
     }
-    .footer-container-810p{
-        display: initial;
+    .footer-container-810px {
+        display: flex;
     }
     .about-us-container-810px {
-        display: initial;
+        display: flex;
+    }
+    .newsletter-container-810px {
+        display: flex;
+    }
+    .social-container-810px {
+        display: flex;
     }
 }
 
