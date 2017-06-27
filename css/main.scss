@@ -1,0 +1,93 @@
+---
+---
+
+@import "normalize";
+@import "nav";
+@import "meet-our-team";
+@import "about-us";
+@import "footer";
+@import "media-queries";
+/* CSS Styles are defined below */
+
+
+body {
+    font-family: 'Black Ops One', cursive;
+    background-color: white;
+}
+
+a {
+    color: black;
+}
+
+.main-content {
+    font-family: black Ops One;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.top-content {
+    font-family: arial;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.table-container img {
+    overflow-x:auto;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+table, tr, td {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonials-container {
+    font-family: arial;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonials-container h2 {
+    font-family: black Ops One;
+}
+
+.customer {
+    color: #0187c6;
+    font-weight: bold;
+}
+
+.button {
+  display: inline-block;
+  padding:  5px 15px;
+  margin-left: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #999;
+  border: none;
+  border-radius: 16px;
+}
+
+.button:hover {background-color: #0187c6}
+
+.button:active {
+  background-color: #0187c6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

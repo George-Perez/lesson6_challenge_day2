@@ -1,0 +1,43 @@
+.team-member-320px img {
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #999;
+}
+
+.team-member-name {
+    margin-bottom: 30px;
+    font-family: arial;
+}
+
+.team-member-table {
+    height: auto;
+    text-align: center;
+}
+
+.team-member-810px img {
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #999;
+}
+
+//  start 810px //
+
+.team-member-table tbody:first-child {
+    display: inline-flex;
+}
+
+.team-member-table tr:nth-child {
+    display: flex;
+    text-align: center;
+}
+
+.team-member-810px td {
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.team-member-810px .team-member-name {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}

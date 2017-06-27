@@ -1,0 +1,138 @@
+/**
+ * Media Queries
+ **/
+
+@media (min-width: 320px) {
+    .page::before {
+        content: "320px";
+        font-family: Arial, sans-serif;
+        color: green;
+        position: fixed;
+        top: 0;
+        left: 0;
+        font-weight: 700;
+        margin: 5px;
+        font-size: 2rem;
+        z-index: 9999;
+    }
+    .menu-items {
+        display: none;
+    }
+    .table-container img {
+        height: 70px;
+    }
+    .testimonial-1 {
+        display: none;
+    }
+    .team-member-320px img {
+        height: 200px;
+    }
+    .our-team-container {
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+    }
+    .team-member-810px {
+        display: none;
+    }
+    .footer-container-810px {
+        display: none;
+    }
+    .about-us-container-810px {
+        display: none;
+    }
+}
+
+@media (min-width: 480px) {
+    .page::before {
+        content: "480px";
+        color: maroon;
+    }
+    .table-container img {
+        height: 75px;
+    }
+}
+
+@media (min-width: 620px) {
+    .page::before {
+        content: "620px";
+        color: orange;
+    }
+    .menu-icon {
+        display: none;
+    }
+    .menu-items {
+        display: initial;
+    }
+    .table-container img {
+        height: 100px;
+    }
+    .testimonial-1 {
+        display: initial;
+    }
+}
+
+@media (min-width: 810px) {
+    .page::before {
+        content: "810px";
+        color: black;
+    }
+    .table-container img {
+        height: 140px;
+    }
+    .team-member-name {
+        display: flex;
+        justify-content: center;
+    }
+    .team-320-container {
+        display: none;
+    }
+    .team-member-810px {
+        display: initial;
+    }
+    .team-member-810px img {
+        height: 200px;
+    }
+    .team-member-810px {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-container {
+        display: none;
+    }
+    .about-us-container {
+        display: none;
+    }
+    .input {
+    padding: 10px 75px;
+    }
+    .footer-container-810p{
+        display: initial;
+    }
+    .about-us-container-810px {
+        display: initial;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page::before {
+        content: "1200px";
+        color: CornflowerBlue;
+    }
+    .table-container img {
+        height: 200px;
+    }
+    .testimonial-2 {
+        display: none;
+    }
+}
+
+@media (min-width: 1400px) {
+    .page::before {
+        content: "1400px";
+        color: red;
+    }
+    .table-container img {
+        height: 250px;
+    }
+}
